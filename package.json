@@ -1,0 +1,37 @@
+{
+  "name": "react-sandbox",
+  "version": "1.0.0",
+  "description": "React Sandbox",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "6.2.0",
+    "react": "16.4.1",
+    "react-dom": "16.4.1"
+  },
+  "devDependencies": {
+    "@storybook/react": "3.4.8",
+    "babel-core": "6.26.3",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.10.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoSL/react-sandbox.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "LeoSL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeoSL/react-sandbox/issues"
+  },
+  "homepage": "https://github.com/LeoSL/react-sandbox#readme"
+}
